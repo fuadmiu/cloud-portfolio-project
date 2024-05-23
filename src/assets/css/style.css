@@ -641,7 +641,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     margin-top: 3px;
     background: #b636ff;
     border: 1px solid #b636ff;
-    cursor:pointer;
+    
     box-shadow: 0 5px 20px rgba(0,0,0,.2);
      -webkit-transition: .5s; 
     -moz-transition:.5s; 
@@ -651,9 +651,11 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 }
 .contact-form .single-contact-btn .contact-btn ,
 .contact-form .single-contact-btn .contact-btn:focus {
+    cursor:pointer;
     margin-top:0px;
     outline: 0 !important;
     border:0;
+    padding: 0 200px;
     color: #fff;
     border-radius: 0px;
     font-size:14px;
@@ -665,6 +667,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     
 }
 .single-contact-btn:hover{
+    cursor:pointer;
     background: #9f00ff;
     border: 1px solid #9f00ff;
     box-shadow: 0 5px 20px rgba(0,0,0,.2);
